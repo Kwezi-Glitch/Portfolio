@@ -1,0 +1,34 @@
+:root{
+    --maincolor: rgb(255,238,215);
+    --subcolor: rgb(116, 171, 248);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* utility styling */
+body{
+    padding: 20px 2cm;
+    background: url('/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: var(--maincolor);
+}
+ul{
+   list-style: none; 
+}
+a{
+    text-decoration: none;
+    color: var(--subcolor);
+}
+/* header styling */
+header{
+
+}
+header nav ul li{
+    float: left;
+}
+header .name{
+    text-align: center;
+}
