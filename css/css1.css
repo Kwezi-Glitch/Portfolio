@@ -9,26 +9,116 @@
 }
 /* utility styling */
 body{
-    padding: 20px 2cm;
+    padding: 20px 10px;
     background: url('/images/bg2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: var(--maincolor);
+    height: auto;
+    min-height: 790px;
 }
 ul{
-   list-style: none; 
+    padding:0px 20px 10px 10px;
+
+}
+ul li{
+   list-style: none;
+   position: relative; 
 }
 a{
     text-decoration: none;
     color: var(--subcolor);
+    font-size: 19px;
+    border-radius: 5px;
+    padding-bottom: 0;
+}
+a:hover{
+    color: white;
+    background: linear-gradient(45deg,rgb(20, 110, 104),rgb(45, 45, 147),lightblue);
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+p{
+    font-size: 1.9vw;
 }
 /* header styling */
 header{
-
+    margin: 10px 15px;
+    padding-bottom: 10px;
+    display: grid;
 }
-header nav ul li{
+header .side-wrap{
     float: left;
+    position: absolute;
+    transform: rotate(-50deg);
+    background: black;
+    padding: 100px 90px 10px 140px;
+    top: -2px;
+    left: -170px;
+    font-size: 2.3vw;
 }
-header .name{
+/* navigation styling */
+header nav ul li{
+    float: right;
+    padding: 0px 10px;
+}
+header nav ul li a{
+    background: rgb(255, 255, 255);
+    padding: 2px 5px;
+}
+header nav ul .link3{
+    transform: rotate(-7deg);
+    top: -5px;
+}
+header nav ul .link2{
+    transform: rotate(8deg);
+    top: 10px;
+}
+header nav ul .link1{
+    transform: rotate(-18deg);
+    top: 15px;
+}
+/* name and proverb */
+header .name h2{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 7vw;
+}
+header .name h2 .M{
+    color: rgb(8, 85, 123);
+    border-bottom: solid 6pt; 
+}
+header .name h2 .K{
+    color: rgb(8, 85, 123);
+    border-top: solid 6pt; 
+}
+header .proverb{
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+.proverb p{
+    font-size: 2.3vw;
+}
+
+/* main styling */
+main{
+    /* font-size: 17px; */
+}
+main .content{
+    margin: 0px 15pc;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: linear-gradient(45deg,rgb(63, 107, 126),rgb(5, 35, 47),rgb(52, 215, 233));
+    box-shadow: 4px 4.5px 5px 5px rgba(0,0,0,.5);
+    min-width: 200px;
+}
+main .content p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+/* footer styling */
+footer{
+    padding: 20px 20px;
     text-align: center;
 }

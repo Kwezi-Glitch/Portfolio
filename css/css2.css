@@ -1,0 +1,111 @@
+ /* Additional Styling */
+
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    background:linear-gradient(45deg,rgb(63, 107, 126),rgb(5, 35, 47),rgb(52, 215, 233));
+    ;
+    border-radius: 5px;
+}
+nav .logo{
+    font-size: 1.2pc;
+    padding: 5px 0px;
+}
+nav .logo:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+nav .logo .M{
+    color: var(--maincolor);
+    border-bottom: solid 3pt; 
+}
+nav .logo .K{
+    color: var(--maincolor);
+    border-top: solid 3pt;
+}
+ul{
+    margin-top: 7px;
+    padding:5px 20px 5px 10px;
+
+}
+ul li{
+   list-style: none;
+   position: relative; 
+}
+a{
+    text-decoration: none;
+    color: var(--subcolor);
+    font-size: 19px;
+    border-radius: 5px;
+}
+a:hover{
+    color: white;
+    background: linear-gradient(45deg,rgb(20, 110, 104),rgb(45, 45, 147),lightblue);
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+header nav ul li a{
+    background: rgb(255, 255, 255);
+    padding: 2px 5px;
+}
+/* form styling */
+.info{
+    background:linear-gradient(45deg,rgb(63, 107, 126),rgb(5, 35, 47),rgb(52, 215, 233));
+    ;
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    height: auto;
+    border-radius:5px;
+    padding-bottom: 20px;
+    padding: 5px 20px;
+    box-shadow: 4px 4.5px 5px 5px rgba(0,0,0,.5);
+}
+.info form{
+    
+}
+.info p{
+    font-size: 17px;
+}
+
+form input{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3.5px;
+    border: solid 1px rgb(180, 180, 180);
+    line-height: 30px;
+    margin: .1px 0px 10px 0px;
+    background-color: rgb(162, 202, 206);
+    padding-left: 5px;
+}
+form #send{
+    color: rgb(5, 81, 93);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    width: 70px;
+    float: right;
+}
+form #send:hover{
+    transform: scale(1.08);
+    background-color: #fff;
+    color: var(--subcolor);
+}
+form label{
+    font-size: 1.1pc;
+   color: var(--maincolor);
+}
+/* my info styling */
+main .myinfo{
+    margin: 0px 15pc;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: linear-gradient(45deg,rgb(63, 107, 126),rgb(5, 35, 47),rgb(52, 215, 233));
+    box-shadow: 4px 4.5px 5px 5px rgba(0,0,0,.5);
+    line-height: 19px;
+    text-align: center;
+    min-width: 230px;
+}
